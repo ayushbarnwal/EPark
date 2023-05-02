@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "175438066869",
+    "project_id": "e-park-1de8c",
+    "storage_bucket": "e-park-1de8c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:175438066869:android:c9d93d2f827c2de641bafc",
+        "android_client_info": {
+          "package_name": "com.example.epark"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "175438066869-fbbotgvpiqdo2mbrorl0dc8dop2qutuc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDl8oxOI0-t_dR_L6eHxWI1N4ziS1-TF6U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "175438066869-fbbotgvpiqdo2mbrorl0dc8dop2qutuc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

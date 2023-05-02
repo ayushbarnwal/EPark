@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/recycler_view_bg"
+    android:layout_margin="5dp"
+    android:id="@+id/linear_layout_1">
+
+    <ImageView
+        android:id="@+id/is_verified"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/markerloc"
+        android:layout_margin="15dp"/>
+
+    <LinearLayout
+        android:id="@+id/layout_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/is_verified"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/customer_name"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Priyanka Kushwaha"
+        android:textColor="@color/black"
+        android:gravity="center_vertical"/>
+
+    <TextView
+        android:id="@+id/customer_phone_no"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:text="Contact No. :   9651090496"/>
+
+        <TextView
+            android:id="@+id/customer_book_date"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Booking Date:  25, April, 2023"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/is_verify"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignEnd="@id/layout_1"
+        android:layout_margin="15dp"/>
+
+
+</RelativeLayout>
